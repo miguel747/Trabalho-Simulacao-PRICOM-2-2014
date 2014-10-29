@@ -12,7 +12,7 @@ f2 = 1.5;
 %intervalo do sinal
 T0 = 5;
 %amostras
-N = T0*fs;
+N = T0/Ts;
 %definindo o intervalo
 t = 0:Ts:Ts*(N-1);
 %definindo o sinal
@@ -31,14 +31,10 @@ X_phase = angle(X);
 k = 0:N-1;
 f = k/T0;
 
-%plotando o espectro de amplitude e fase do sinal
+%plotando o espectro de amplitude do sinal
 stem(f(1:fs/2),X_mag(1:fs/2));
 legend('Amplitude');
 grid;
-stem(f(1:fs/2),X_phase(1:fs/2));
-legend('Fase(radianos)');
-grid;
-
 
 
 
