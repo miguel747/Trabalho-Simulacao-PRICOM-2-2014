@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  7 NOV 2014 17:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  10 NOV 2014 22:58
 entering extended mode
 **document.tex
 
@@ -360,22 +360,31 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 ("H:\OneDrive\UNB\Semestre Presente\PRICOM - TECOM\Trabalho simulacao\Trabalho-
-Simulacao-PRICOM-2-2014\Relatorio\document.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+Simulacao-PRICOM-2-2014\Relatorio\document.aux"
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Warning: Label `sample' multiply defined.
+
+
+LaTeX Warning: Label `sample' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen115
@@ -388,27 +397,169 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count105
 \makeMPintoPDFobject=\count106
 \everyMPtoPDFconversion=\toks23
-) [1
+) <fig1.png, id=1, 421.575pt x 316.18124pt>
+File: fig1.png Graphic file (type png)
+ <use fig1.png>
+Package pdftex.def Info: fig1.png used on input line 28.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<fig2.png, id=2, 421.575pt x 316.18124pt>
+File: fig2.png Graphic file (type png)
+ <use fig2.png>
+Package pdftex.def Info: fig2.png used on input line 35.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+<fig3.png, id=3, 421.575pt x 316.18124pt>
+File: fig3.png Graphic file (type png)
+ <use fig3.png>
+Package pdftex.def Info: fig3.png used on input line 41.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <H:/OneDrive/UNB/Semestre 
+Presente/PRICOM - TECOM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014/Rel
+atorio/fig1.png (PNG copy)>] <fig4.png, id=18, 421.575pt x 316.18124pt>
+File: fig4.png Graphic file (type png)
+
+<use fig4.png>
+Package pdftex.def Info: fig4.png used on input line 49.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+ <fig5.png, id=19, 421.575pt x 316.18124pt>
+File: fig5.png Graphic file (type png)
+ <use fig5.png>
+Package pdftex.def Info: fig5.png used on input line 55.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+<fig6.png, id=20, 421.575pt x 316.18124pt>
+File: fig6.png Graphic file (type png)
+ <use fig6.png>
+Package pdftex.def Info: fig6.png used on input line 61.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig7.png, id=21, 421.575pt x 316.18124pt>
+File: fig7.png Graphic file (type png)
+ <use fig7.png>
+Package pdftex.def Info: fig7.png used on input line 68.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+<fig8.png, id=22, 421.575pt x 316.18124pt>
+File: fig8.png Graphic file (type png)
+ <use fig8.png>
+Package pdftex.def Info: fig8.png used on input line 74.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+<fig9.png, id=23, 421.575pt x 316.18124pt>
+File: fig9.png Graphic file (type png)
+ <use fig9.png>
+Package pdftex.def Info: fig9.png used on input line 80.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<sample.png, id=24, 321.2pt x 240.9pt>
+File: sample.png Graphic file (type png)
+ <use sample.png>
+Package pdftex.def Info: sample.png used on input line 90.
+(pdftex.def)             Requested size: 160.59961pt x 120.44969pt.
+
+<fig21.png, id=26, 421.575pt x 316.18124pt>
+File: fig21.png Graphic file (type png)
+ <use fig21.png>
+Package pdftex.def Info: fig21.png used on input line 97.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+<fig22.png, id=27, 421.575pt x 316.18124pt>
+File: fig22.png Graphic file (type png)
+ <use fig22.png>
+Package pdftex.def Info: fig22.png used on input line 104.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <H:/OneDrive/UNB/Semestre Presente/PRICOM - TECOM/Trabalho simulacao/Trabalh
+o-Simulacao-PRICOM-2-2014/Relatorio/fig2.png (PNG copy)> <H:/OneDrive/UNB/Semes
+tre Presente/PRICOM - TECOM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014
+/Relatorio/fig3.png (PNG copy)>]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+[3 <H:/OneDrive/UNB/Semestre Presente/PRICOM - TECOM/Trabalho simulacao/Trabalh
+o-Simulacao-PRICOM-2-2014/Relatorio/fig4.png (PNG copy)> <H:/OneDrive/UNB/Semes
+tre Presente/PRICOM - TECOM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014
+/Relatorio/fig5.png (PNG copy)> <H:/OneDrive/UNB/Semestre Presente/PRICOM - TEC
+OM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014/Relatorio/fig6.png (PNG 
+copy)>]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+[4 <H:/OneDrive/UNB/Semestre Presente/PRICOM - TECOM/Trabalho simulacao/Trabalh
+o-Simulacao-PRICOM-2-2014/Relatorio/fig7.png (PNG copy)> <H:/OneDrive/UNB/Semes
+tre Presente/PRICOM - TECOM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014
+/Relatorio/fig8.png (PNG copy)> <H:/OneDrive/UNB/Semestre Presente/PRICOM - TEC
+OM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014/Relatorio/fig9.png (PNG 
+copy)>] [5 <H:/OneDrive/UNB/Semestre Presente/PRICOM - TECOM/Trabalho simulacao
+/Trabalho-Simulacao-PRICOM-2-2014/Relatorio/sample.png> <H:/OneDrive/UNB/Semest
+re Presente/PRICOM - TECOM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014/
+Relatorio/fig21.png (PNG copy)> <H:/OneDrive/UNB/Semestre Presente/PRICOM - TEC
+OM/Trabalho simulacao/Trabalho-Simulacao-PRICOM-2-2014/Relatorio/fig22.png (PNG
+ copy)>]
 ("H:\OneDrive\UNB\Semestre Presente\PRICOM - TECOM\Trabalho simulacao\Trabalho-
-Simulacao-PRICOM-2-2014\Relatorio\document.aux") ) 
+Simulacao-PRICOM-2-2014\Relatorio\document.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2248 strings out of 493921
- 28052 string characters out of 3144873
- 83588 words of memory out of 3000000
- 5541 multiletter control sequences out of 15000+200000
- 9100 words of font info for 33 fonts, out of 3000000 for 9000
+ 2337 strings out of 493921
+ 29203 string characters out of 3144873
+ 86752 words of memory out of 3000000
+ 5612 multiletter control sequences out of 15000+200000
+ 9900 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,20p,225b,200s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on document.pdf (1 page, 47001 bytes).
+ 27i,7n,20p,379b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on document.pdf (5 pages, 410147 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

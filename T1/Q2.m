@@ -15,13 +15,16 @@ X = reshape(A,1,[]);
 %Q2.1
 %plotando o sinal
 figure(1);
-plot((0:length(X)-1)*Ts, X);
+t = (0:length(X)-1)*fs;
+plot(t*Ts,X);
 grid;
 %Q2.2
 figure(2)
 %Autocorrelacao
 Aut = xcorr(X,ncorr);
 plot((0:length(Aut)-1)*Ts,Aut);
+
+
 
 
 
