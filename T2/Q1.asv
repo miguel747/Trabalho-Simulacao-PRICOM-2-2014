@@ -14,4 +14,3 @@ disp('termino da gravacao');
 play(rec);
 
 
-recordblo
