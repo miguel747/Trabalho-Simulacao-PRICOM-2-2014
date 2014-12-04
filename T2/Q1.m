@@ -1,6 +1,6 @@
 %Trabalho Simulacao 2 - Pricom 2/2014
-%Alunos:    Filipe Miguel
-%           Lucas Siqueira
+%Alunos:    Filipe Miguel - 11/0029224
+%          
 
 clear all
 %parametros pedidos do audio
@@ -10,6 +10,8 @@ Ta = 5;
 N = Ta/Ts;
 
 %Q1.1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %gravando um sample de audio
 rec = audiorecorder(Fs,16,1);
 get(rec);
@@ -51,30 +53,73 @@ codebook = -mp:dv:mp;
 %correspondente aos niveis de amplitude do sinal
 [index1,quant16] = quantiz(myRecording,part,codebook);
 %converter indice decimal em binario
-index_bin = dec2bin(index1);
-%plot
-amostras = index_bin(1:50);
+index_bin1 = dec2bin(index1);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Q1.2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %comprimindo o sinal
 mu = 255;
 myRecording_comp = compand(myRecording,mu,mp,'mu/compressor');
-
+mp_comp = max(abs(myRecording_comp));
 %requantizando
 n_bits_new = 8;
 L_new = 2^n_bits_new;
-dv_new = 2*mp/(L_new-1);
+dv_new = 2*mp_comp/(L_new-1);
 %particao
-part_new = -mp:dv_new:mp-dv_new;
+part_new = -mp_comp:dv_new:mp_comp-dv_new;
+
 %ATENCAO: lembrando que particoes sao os numeros de niveis -1 = L-1
-codebook_new = -mp:dv_new:mp;
+codebook_new = -mp_comp:dv_new:mp_comp;
 [index2,quant8_comp] = quantiz(myRecording_comp,part_new,codebook_new);
 [index3,quant8_norm] = quantiz(myRecording,part_new,codebook_new);
+
 %plotando os dois sinais quantizados
 figure(3)
 plot(t,quant8_norm,t,quant8_comp)
 grid;
 legend('Q. Normal','Q. Sinal Comprimido');
+
+%plotando a PSD
+figure(4)
+subplot(211)
+pwelch(quant8_norm)
+title('PSD Quantizacao Uniforme Sinal Normal');
+grid;
+subplot(212)
+pwelch(quant8_comp)
+title('PSD Quantizacao Uniforme Sinal Comprimido');
+grid;
+%plotando o histograma
+figure(5)
+subplot(211)
+hist(index2,L_new);
+title('Histograma do sinal normal em 8 bits');
+subplot(212)
+hist(index3,L_new);
+title('Histograma do sinal compactado em 8 bits');
+index_bin2 = dec2bin(index2);
+index_bin3 = dec2bin(index3);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Q1.3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+n_bits_dpcm = 4;
+
+
+%Q1.4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Rb = Fs*n_bits;
+[t,x] = prz(index1,20*Rb);
+figure(6)
+plot(t,x);
+xlabel('tempo(s)');
+ylabel('Pulso');
+grid;
+title('Sinal Polar RZ da quantização PCM do sinal Original');
 
 
 
